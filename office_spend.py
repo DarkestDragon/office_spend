@@ -35,7 +35,7 @@ if __name__ == "__main__":
 	bot = DialogBot.get_secure_bot(
 		"hackathon-mob.transmit.im",
 		grpc.ssl_channel_credentials(),
-		"14e01ad53f5f39660b3678b569a204f38fea7607"
+		"2b1af9a5b6d825508cfefa7843cc6e2f2218096c"
 	)
 	with open("./spend_help.txt", "r") as help_file:
 		help = help_file.read()
